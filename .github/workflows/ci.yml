@@ -5,9 +5,8 @@ on:
     branches: ['main']
   pull_request:
     branches: ['main']
-jobs:
-  tls:
-    runs-on: ubuntu-latest
+jobs: 
+tls runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: install dependencies
