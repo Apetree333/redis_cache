@@ -1,38 +1,47 @@
 ---
-BasedOnStyle: Google
-
-IndentWidth: 2
-ColumnLimit: 80
-ContinuationIndentWidth: 4
-UseTab: Never
-MaxEmptyLinesToKeep: 2
-
-SortIncludes: true
-CompactNamespaces: true
-ReflowComments: true
-
-DerivePointerAlignment: false
-PointerAlignment: Left
-
-AllowShortIfStatementsOnASingleLine: false
-AllowShortBlocksOnASingleLine: false
-AllowShortFunctionsOnASingleLine: Inline
-
-AlwaysBreakAfterReturnType: TopLevelDefinitions
-AlignAfterOpenBracket: AlwaysBreak
-BreakBeforeBraces: Custom
-BraceWrapping:
-  AfterClass: false
-  AfterControlStatement: false
-  AfterEnum: false
-  AfterFunction: true
-  AfterNamespace: false
-  AfterStruct: false
-  AfterUnion: false
-  BeforeCatch: true
-
-BinPackArguments: true
-BinPackParameters: true
-ConstructorInitializerAllOnOneLineOrOnePerLine: false
-
-IndentCaseLabels: true
+BasedOn
+Style: Google  Indent
+Width: 2  Column
+Limit: 80  Continuation
+IndentWidth: 4 Use
+Tab: Never MaxEmpty
+LinesTo
+Keep: 2  Sort
+Includes: true Compact
+Namespaces: true Reflow
+Comments: true DerivePointer
+Alignment: false Pointer
+Alignment: Left
+AllowShortIfStatementsOn
+ASingleLine: false
+Allow
+ShortBlocksOn
+ASingleLine: false Allow
+ShortFunctionsOn
+ASingleLine: Inline
+AlwaysBreakAfterReturnType:
+TopLevelDefinitions
+AlignAfterOpenBracket: 
+AlwaysBreak
+BreakBeforeBraces:
+Custom Brace
+Wrapping:
+  AfterClass: 
+false AfterControl
+Statement: false  AfterEnum: 
+false AfterFunction: 
+true AfterNamespace: 
+false
+  AfterStruct: 
+false AfterUnion: 
+false
+BeforeCatch: 
+true BinPackArguments:
+true BinPack
+Parameters: true Constructor
+Initializer
+AllOn
+OneLine
+OrOnePer
+Line: false IndentCaseLabels:
+true
